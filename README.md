@@ -17,5 +17,6 @@ Theano implementation by the authors of the original work. Please cite the autho
 - Python 2.7 :snake:
 - `code quality = disappointing` Good luck storm troopers :gun:!
 - The original file `live_count/live_rep.py` is refactored for use as an importable library in `live_count/live_rep_refactor.py`.
-- See `live_count/get_mean_absolute_error.py` for sample usage.
+- See `live_count/get_mean_absolute_error.py` for obtaining `MEAN_ABSOLUTE_ERRORS`.
+- See `live_count/get_each_frame_accuracy.py` for obtaining `PER_FRAME_ACCURACY`.
 - This model expects **mp4** video files. (Use **divX Convertor** for video conversions on a Mac :computer:).
